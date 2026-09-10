@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/echallan-management-system.git'
+                git branch: 'main', url: 'https://github.com/aditya-raj-arora/devops-lab6-echallan-management-system.git'
             }
         }
 
